@@ -1607,3 +1607,8 @@
 
 .eventText {
 }
+
+.event {
+  position: relative;
+  margin-top: 1vh;
+}
