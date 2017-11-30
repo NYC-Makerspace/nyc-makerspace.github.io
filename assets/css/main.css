@@ -1595,7 +1595,7 @@
 
 /* Other */
 
-.eventImage {   
+.eventImage,.classImage {   
     zoom: 50%;
     -webkit-transform: scale(0.9);
     float: left;
