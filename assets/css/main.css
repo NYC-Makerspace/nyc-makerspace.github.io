@@ -1751,3 +1751,53 @@ body.is-loading #footer {
 #main article.active {
   width: 60vw;
 }
+
+.bios {
+  display: block;
+}
+
+.bios p {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.classDiv {
+  display: block;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.classImg {
+  display: block;
+  width: 578px;
+  height: 741px;
+  margin: auto;
+}
+
+.theClasses {
+  text-align: center;
+}
+
+.punch {
+  width: 90%;
+  margin: auto;
+}
+
+.current {
+  text-align: center !important;
+  text-decoration: underline;
+}
+.past {
+  text-align: center !important;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+.signupimage {
+  display: none;
+  margin: auto;
+}
+.signupbutton {
+  font-size: 20px;
+  font-style: bold;
+  color: yellow;
+}
