@@ -1740,9 +1740,6 @@ body.is-loading #footer {
   page-break-before: always;
 }
 
-.eventText {
-}
-
 .event {
   position: relative;
   margin-top: 1vh;
@@ -1769,8 +1766,7 @@ body.is-loading #footer {
 
 .classImg {
   display: block;
-  width: 578px;
-  height: 741px;
+  width: 90%;
   margin: auto;
 }
 
@@ -1800,4 +1796,31 @@ body.is-loading #footer {
   font-size: 20px;
   font-style: bold;
   color: yellow;
+}
+
+@media only screen and (max-width: 1000px) {
+  #main article.active {
+    width: 100vw;
+    text-align: center;
+  }
+  #ourmission {
+    text-align: center !important;
+    text-decoration: underline;
+  }
+  #about {
+    text-align: center;
+  }
+  .aboutImage {
+    width: 100%;
+    margin: auto;
+  }
+  #imageMobile {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  .classImg {
+    width: 100%;
+    margin: auto;
+  }
 }
